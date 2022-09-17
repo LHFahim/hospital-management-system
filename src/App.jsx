@@ -3,6 +3,7 @@ import Form from './pages/Form';
 import { Routes, Route } from 'react-router-dom';
 import Dashboard from './pages/Dashboard';
 import AddDoctor from './pages/AddDoctor';
+import ViewDoctor from './pages/ViewDoctor';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
 
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/AddDoctor" element={<AddDoctor />} />
+        <Route path="/ViewDoctor" element={<ViewDoctor />} />
       </Routes>
     </div>
   );

@@ -21,6 +21,9 @@ function Nav() {
             <li className="rounded-3xl outline outline-1 outline-blue-700 hover:bg-blue-700 ">
               <Link to="/AddDoctor">Add doctor</Link>
             </li>
+            <li className="rounded-3xl outline outline-1 outline-blue-700 hover:bg-blue-700 ">
+              <Link to="/ViewDoctor">View doctors</Link>
+            </li>
 
             {/* drop down */}
             {/* <li tabIndex={0}>
@@ -44,9 +47,6 @@ function Nav() {
                   <a href="https://google.com">Submenu 2</a>
                 </li>
               </ul>
-            </li> */}
-            {/* <li>
-              <a href="https://google.com">Item 3</a>
             </li> */}
           </ul>
         </div>
