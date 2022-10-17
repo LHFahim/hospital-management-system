@@ -24,6 +24,9 @@ function Nav() {
             <li className="rounded-3xl outline outline-1 outline-blue-700 hover:bg-blue-700 ">
               <Link to="/ViewDoctor">View doctors</Link>
             </li>
+            <li className="rounded-3xl outline outline-1 outline-blue-700 hover:bg-blue-700 ">
+              <Link to="/makeAppointment">Make Appointment</Link>
+            </li>
 
             {/* drop down */}
             {/* <li tabIndex={0}>
