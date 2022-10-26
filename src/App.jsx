@@ -7,6 +7,8 @@ import ViewDoctor from './pages/ViewDoctor';
 import Appoinment from './pages/Appoinment';
 import MedicalServices from './pages/MedicalServices';
 import ViewMedicalServices from './pages/ViewMedicalServices';
+import RoomDetails from './pages/RoomDetails';
+import ViewRoomDetails from './pages/ViewRoomDetails';
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
 
         <Route path="/addMedicalServices" element={<MedicalServices />} />
         <Route path="viewMedicalServices" element={<ViewMedicalServices />} />
+        <Route path="/addRoom" element={<RoomDetails />} />
+        <Route path="/viewRooms" element={<ViewRoomDetails />} />
       </Routes>
     </div>
   );
